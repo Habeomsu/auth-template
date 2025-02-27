@@ -32,6 +32,8 @@ MYSQL_DATABASE=your_db
 MYSQL_USER=user_name
 MYSQL_PASSWORD=user_password
 SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/{데이터베이스 이름}?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+MAIL_ADDRESS=your_email
+APP_PASSWORD=email_password
 ```
 
 ## 설치 방법 및 실행
@@ -81,6 +83,8 @@ MYSQL_DATABASE=your_db
 MYSQL_USER=user_name
 MYSQL_PASSWORD=user_password
 SPRING_DATASOURCE_URL=your_datasource
+MAIL_ADDRESS=your_email
+APP_PASSWORD=email_password
 ```
 
 ### 7. docker-compose 실행
